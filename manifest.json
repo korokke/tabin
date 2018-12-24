@@ -1,0 +1,47 @@
+{
+    // https://developers.whale.naver.com/api/manifest/
+
+    // 필수
+    "manifest_version": 2,
+    "name": "__MSG_extName__",
+    "version": "1.0.0",
+
+    "description": "__MSG_extDescription__",
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "default_locale": "ko",
+
+    "sidebar_action": {
+        "default_page": "sidebar.html",
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        },
+        "default_title": "__MSG_extName__",
+        "use_navigation_bar": true
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "permissions": ["tabs"],
+    "storage": {
+        "managed_schema": "schema.json"
+    },
+
+    "commands": {
+        "save-tabs": {
+            "suggested_key": {
+                "default": "Ctrl+Period",
+                "mac": "Command+Period"
+            },
+            "description": "Save Tabs"
+        }
+    }
+    
+}

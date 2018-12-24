@@ -1,2 +1,2 @@
 # tabin
-naver whale browser extension sidebar application
+naver whale browser sidebar extension

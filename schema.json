@@ -1,0 +1,9 @@
+{
+    // https://developer.chrome.com/extensions/manifest/storage
+
+    "type": "object",
+
+    "properties": {
+        
+    }
+}

@@ -1,0 +1,12 @@
+{
+    // https://developer.chrome.com/extensions/i18n
+
+    "extName": {
+        "message": "TabIn",
+        "description" : "확장앱 이름"
+    },
+    "extDescription": {
+        "message": "Group Tabs, Save In!",
+        "description": "확장앱 설명"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    // https://developer.chrome.com/extensions/i18n
+
+    "extName": {
+        "message": "탭인",
+        "description": "확장앱 이름"
+    },
+    "extDescription": {
+        "message": "탭을 그룹화해서 저장하세요!",
+        "description": "확장앱 설명"
+    }
+}
